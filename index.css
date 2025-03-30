@@ -234,7 +234,7 @@ body {
 }
 
 
-.cercletext
+.cercletext /*profil photo + titre du video*/
 {
     display: flex;
     gap: 10px;
@@ -255,7 +255,7 @@ body {
     margin-left: 180px;
 }
 
-.recs
+.recs /*rectangle du thumbnail du video*/
 {
     background-color: grey;
     width: 210px;

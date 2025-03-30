@@ -1,0 +1,265 @@
+.rectangle {
+    width: 25px; 
+    height: 2px; 
+    background-color: rgb(255, 255, 255) 
+}
+
+.toggle{
+    display: flex; 
+    gap: 7px; 
+    flex-direction: column; 
+    padding: 1rem; 
+    border-radius: 50%; 
+}
+
+.toggle:hover{ 
+    cursor: pointer; 
+    background-color: #605e5e; 
+    width: max-content; 
+    border-radius: 50%; 
+    transition: 0.5s ease-in-out; 
+}
+
+body {
+    background-color:black
+}
+
+.logoyt{
+    width: 200px;
+    margin-left: 20px;;
+}
+
+.logoyt:hover{
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.searchmaman{
+    display: flex;
+}
+
+.home{
+    display: flex;
+}
+
+.personnel{
+    display: flex;
+}
+
+
+.inputnavbar{
+    
+    padding: 0.5rem 0.5rem;
+    border: grey;
+    background-color: inherit;
+    color: grey;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search{
+    background-color: grey;
+    padding: 0.5rem;
+    border-color: grey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.loupe{
+    color: white;
+    padding-left: 0.75rem;
+    padding-right: 0.4rem;
+
+}
+
+
+.microphone{
+    background-color: gray;    
+    padding: 0.5rem; 
+    border-radius: 50%; 
+    margin-left: 1.5rem; 
+    width: 30px; 
+    display: flex; 
+    Justify-content: center; 
+    align-items: center; 
+}
+
+.microphone:hover{
+    width: 30px; 
+    cursor: pointer; 
+    background-color: rgb(85, 87, 85);
+}
+
+
+.micro{
+    color: white;
+}
+
+.additione{
+    color: white;
+}
+
+.creernavbar{
+    color: white;
+}
+
+.creer{
+    background-color: gray; 
+    padding: 0.5rem 0.7rem; 
+    border-radius: 30%; 
+    margin-left: 1.5rem; 
+    width: 60px; 
+    display: flex; 
+    Justify-content: center; 
+    align-items: center; 
+}
+
+.creer:hover{
+    width: 60px; 
+    cursor: pointer; 
+    background-color: rgb(85, 87, 85);
+}
+
+.sonnerie{
+    margin-left: 2rem;
+    position: relative;
+    border-radius: 50%;
+}
+
+.sonnerie:hover{
+    padding: 0.5rem;
+    width: 35px;
+    background-color: rgb(85, 87, 85);
+}
+
+.bell-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;  
+    background: transparent;
+    font-size: 25px;
+
+}
+
+.profil {
+    margin-left: 3rem;
+    width: 50px; 
+    height: 50px; 
+}
+
+.profil img {
+    width: 100%;  
+    height: auto;
+    border-radius: 50px;  
+}
+
+
+
+
+
+.rec2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+    border-radius: 5%;
+}
+
+.rec2 img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.cercle2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.cercle2 img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.minispace{
+    height: 15px;
+}
+
+.rec3
+{
+    background-color: transparent;
+    height: 10px;
+    width: 200px;
+}
+
+.rec4
+{
+    background-color: transparent;
+    height: 10px;
+    width: 150px;
+}
+
+
+.mamamrec34
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.smallerspace{
+    height: 25px;
+
+}
+
+
+.cercletext
+{
+    display: flex;
+    gap: 10px;
+}
+
+.video
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 60px;
+}
+
+.mamanvideo
+{
+    display: flex;
+    gap: 40px;
+    margin-left: 180px;
+}
+
+.recs
+{
+    background-color: grey;
+    width: 210px;
+    height: 370px;
+    border-radius: 2%;
+    
+}
